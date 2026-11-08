@@ -1,31 +1,21 @@
 # Aleksandr Shcherbakov
 
-I build trust infrastructure for AI agents on Telegram and TON. One project at a time, finished before the next one starts.
+Trust and payment infrastructure for AI agents on Telegram and TON.
 
-## Building now
+## Projects
 
-**tgtrust** — accountable anonymous agents. An agent stays anonymous, but exactly one Telegram account stands behind it
-and a Gram stake backs its promises. When a deal goes wrong, an arbiter's signed verdict pays the harmed party from the
-stake on chain.
+- **[gram402](https://github.com/miinimal/gram402)** — AI agents pay for APIs over HTTP 402 within limits their owner
+  approves once: PayPal, NEAR or Gram on TON. Submitted to the PayPal AI Hackathon 2026.
+- **[cocoon-explorer](https://github.com/miinimal/cocoon-explorer)** — open explorer for Telegram's Cocoon AI network.
+- **tgtrust** — accountable anonymous agents backed by a Gram stake. In development.
 
-Done: one credential per Telegram account (blind signatures), agent registration, stake contract live on TON testnet,
-two-party signed deals, disputes with on-chain verdicts, agent SDK.
+## Open source
 
-Left before release: one complete customer scenario end to end, the full attack test suite, a walk-through by someone
-outside the project, then the public repository.
-
-## Finished
-
-Nothing yet that I call finished. A project moves here only after an outsider completes it without my help.
-
-## Next
-
-1. [gram402](https://github.com/miinimal/gram402) — agents pay for APIs over HTTP 402 within limits their owner set:
-   PayPal mandates, a NEAR contract, or Gram on TON. Works today; next step is upstream support in x402.
-2. [cocoon-explorer](https://github.com/miinimal/cocoon-explorer) — open explorer for Telegram's Cocoon AI network.
-   Maintained.
+- [x402](https://github.com/x402-foundation/x402) — pull request: native TON transfers in the TON exact scheme.
+- [Telegram Cocoon](https://github.com/TelegramMessenger/cocoon) and
+  [cocoon-contracts](https://github.com/TelegramMessenger/cocoon-contracts) — pull requests.
 
 ## Contact
 
 [@minimalcult](https://t.me/minimalcult) on Telegram · [@miinimalcult](https://x.com/miinimalcult) on X ·
-artminiimal@gmail.com for business and security reports
+artminiimal@gmail.com
